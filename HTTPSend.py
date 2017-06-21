@@ -5,18 +5,18 @@ import sys
 https = 0
 quiet = 0
 
-# Benutzung:
+# How-To:
 #
 # python HTTPSend.py [-s] [-q] filename.http [filename1.http] ...
-# Arbeitet die Files ab in der genannten Reihenfolge
-# Falls -s gegeben ist, dann https, sonst http
-# Falls -q gegeben ist, dann keine output der response in der shell.
+# Works on files containing http requests in given order
+# If -s option is provided, use https
+# If -q option is provided, do not print response
 #
-# sebastian.freitag@vispiron.de
+# freitsabes@gmail.com
 #
-# Zukuenftige Verbesserungen:
-#  - Auch Ordner angeben, requests dann in alphabetischer Reihenfolge
-#  - Besseres Error-Handling
+# Possible future improvements:
+#  - When folder is provided instead of files, go through files in folder alphabetically.
+#  - add error handling
 
 current_milli_time = lambda: int(round(time.time() * 1000))
 
