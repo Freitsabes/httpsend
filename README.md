@@ -20,11 +20,11 @@ Super Simple Python Based HTTP(S) Send Tool For Api Testing
 # How-To:
 python HTTPSend.py [-s] [-q] filename.http [filename1.http] ...
 
-works on files containing http requests in given order
-If -s option is provided, use https
-If -q option is provided, do not print response
+Skript works on files containing http requests in given order.  
+If -s option is provided, use https  
+If -q option is provided, do not print response  
 
-freitsabes@gmail.com
+freitsabes@gmail.com  
 Possible future improvements:
 - When folder is provided instead of files, go through files in folder alphabetically.
 - add error handling
